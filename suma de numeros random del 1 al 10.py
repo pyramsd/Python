@@ -1,11 +1,10 @@
 import random
 
-numero1 = random.randint(1, 10)
-numero2 = random.randint(1, 10)
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
 
-print("¿Cuánto es " + str(numero1) + "+" + str(numero2) + "?")
-respuesta = input("R = ")
-if int(respuesta) == numero1 + numero2:
-    print("CORRECTO")
-else:
-    print("NOP, la respuesta es " + str(numero1 + numero2))
+print(f"El primer numero random es {num1} \n El segundo numero random es {num2}")
+
+result = num1 + num2
+
+print(f" la suma de {num1} y {num2} es {result}")
