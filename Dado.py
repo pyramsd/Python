@@ -1,7 +1,6 @@
 import random
 
 def dado():
-    numero = int()
     numero = random.randint(1, 6)
     print("número generado >>", numero)
     print("¿Otro número? para otro número(s) y para cerrar programa(n)")
