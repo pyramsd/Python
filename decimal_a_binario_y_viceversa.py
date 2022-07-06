@@ -9,7 +9,3 @@ dec_bin()
 def bin_dec():
     print(int(str(int(input("Binaro a convertir a decimal: "), 2))))
 bin_dec()
-
-
-
-    
