@@ -1,5 +1,5 @@
-# una palabra isograma una palabra que no se repitan letras
-def is_isogram(string):
+# una palabra heterograma una palabra que no se repitan letras
+def is_heterograma(string):
     string = string.lower().replace(" ","").replace("-", "")
     if len(string) == len(set(string)):
         return True
