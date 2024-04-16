@@ -7,6 +7,8 @@ se puede evitar que se produzca la proteína. Esta técnica se llama interferenc
 
 Los cuatro nucleótidos que se encuentran en el ADN son adenina (A), citosina (C), guanina (G) y timina (T).
 Los cuatro nucleótidos que se encuentran en el ARN son adenina (A), citosina (C), guanina (G) y uracilo (U).
+
+Dada una cadena de ADN, su cadena de ARN transcrita se forma reemplazando cada nucleótido con su complemento.
 '''
 
 def to_rna(dna_strand):
