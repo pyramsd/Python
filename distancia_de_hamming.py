@@ -27,4 +27,3 @@ def distance(strand_a, strand_b):
 
 print(distance('GGACTGAAATCTG', 'GGACTGAAATCTG'))
 print(distance('AGGACGGATTCT', 'GGACGGATTCTG'))
-print(distance('AGGACGGATTCT', 'GGACGGATTAAA'))
