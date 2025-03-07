@@ -12,7 +12,7 @@ También hay tres codones de terminación (también conocidos como codones de 'P
 si alguno de estos codones se encuentra (por el ribosoma), toda la traducción termina
 y la proteína finaliza.
 
-odos los codones posteriores se ignoran,
+Todos los codones posteriores se ignoran,
 así: ARN: "AUGUUUUUUAAAAUG" =>
 Codones: "AUG", "UUU", "UCU", "UAA", "AUG" =>
 Proteína: "Metionina", "Fenilalanina", "Serina"
@@ -32,7 +32,7 @@ dict = {
     'AAU':'Asparagina', 'ACC':'Asparagina',
     'UUU':'Fenilalanina', 'UUC':'Fenilalanina',
     'GAU':'Acido aspartico', 'GAC':'Acido aspartico',
-    'GAA':'Acido glutammico', 'GAG':'Acido glutamico',
+    'GAA':'Acido glutamico', 'GAG':'Acido glutamico',
     'AUU':'Isoleucina', 'AUC':'Isoleucina', 'AUA':'Isoleucina',
     'GUU':'Valina', 'GUC':'Valina', 'GUA':'Valina', 'GUG':'Valina',
     'CCU':'Prolina', 'CCC':'Prolina', 'CCA':'Prolina', 'CCG':'Prolina',
@@ -61,3 +61,4 @@ print(proteins('UGGUAG'))
 print(proteins('AUGUUUUAA'))
 print(proteins('UGGUAGUGG'))
 print(proteins('UGGUGUUAUUAAUGGUUU'))
+print(proteins('AUGAUCUCGUAA'))
